@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en-US" style="font-size: 100%">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="apple-mobile-web-app-title" content="Don't Hack Me Bro!">
+	<meta name="application-name" content="Don't Hack Me Bro!">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<title>Don't Hack Me Bro!</title>
+	<link rel="stylesheet" type="text/css" href="/css/sitestyles.css" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3ed481">
+</head>
+<body>
+	<header id="header" >
+		<a href="/index.html">
+			<div class="header-box">
+				<div class="bi header-toon-drop-jaw header-toon-drop-jaw-base"></div>
+				<div class="bi header-toon header-toon-bug-eyes header-toon-bug-eyes-base"></div>
+				<div class="header-text">
+					<strong>DHMB.COM</strong>
+				</div>
+				<img class="header-logo" src="/images/sprite-logo-with-url.svg#base" alt="Don't Hack Me Bro! Logo" title="Don't Hack Me Bro!"/>
+				<div class="bi header-toon-sly-agent header-toon-sly-agent-base"></div>
+				<div class="bi header-toon header-toon-hacker header-toon-hacker-base"></div>
+			</div>
+		</a>
+	</header>
+	<div id="catchphrase">
+		Security and Privacy, for <strong>Everyone</strong>.
+	</div>
+	<nav>
+		<input id="menu-mobile-button-base" type="checkbox" checked="checked" class="bi menu-trigger menu-trigger-base" />
+		<label for="menu-mobile-button-base"></label>
+		<div id="menu">
+			<div class="menu-box">
+				<a class="menu-item background-neutral" href="/categories/topical">
+					<img class="menu-icon" src="/images/sprite-icons-core.svg#topical" alt="Toical" title="Topical" />
+					<b>Topical</b>
+				</a>
+				<a class="menu-item background-neutral" href="/categories/news">
+					<img class="menu-icon" src="/images/sprite-icons-core.svg#news" alt="News" title="News" />
+					<b>News</b>
+				</a>
+				<a class="menu-item background-neutral" href="/categories/how-to">
+					<img class="menu-icon" src="/images/sprite-icons-core.svg#how-to" alt="How-To" title="How-To" />
+					<b>How-To</b>
+				</a>
+				<a class="menu-item background-neutral" href="/categories/review">
+					<img class="menu-icon" src="/images/sprite-icons-core.svg#review" alt="Reviews" title="Reviews" />
+					<b>Reviews</b>
+				</a>
+				<a class="menu-item background-neutral" href="/categories/opinion">
+					<img class="menu-icon" src="/images/sprite-icons-core.svg#opinion" alt="Opinion" title="Opinion" />
+					<b>Opinion</b>
+				</a>
+				<a class="menu-item background-neutral" href="/categories/interview">
+					<img class="menu-icon" src="/images/sprite-icons-core.svg#interview" alt="Interviews" title="Interviews" />
+					<b>Interviews</b>
+				</a>
+				<a class="menu-item background-neutral" href="/index.html">
+					<img class="menu-icon" src="/images/sprite-icons-core.svg#home" alt="Home" title="Home" />
+					<b>Home</b>
+				</a>
+				<a class="menu-item background-neutral" href="/keys/1-key">
+					<img class="menu-icon" src="/images/sprite-icons-core.svg#1-key-center" alt="1 Key" title="1 Key" />
+					<b>1 Key</b>
+				</a>
+				<a class="menu-item background-neutral" href="/keys/2-keys">
+					<img class="menu-icon" src="/images/sprite-icons-core.svg#2-keys" alt="2 Keys" title="2 Keys" />
+					<b>2 Keys</b>
+				</a>
+				<a class="menu-item background-neutral" href="/keys/3-keys">
+					<img class="menu-icon" src="/images/sprite-icons-core.svg#3-keys" alt="3 Keys" title="3 Keys" />
+					<b>3 Keys</b>
+				</a>
+			</div>
+			<div class="bi menu-bottom menu-bottom-drop-jaw"></div>
+		</div>
+	</nav>
+	<nav id="social-1">
+		<div class="social-layout">
+			<div class="social-link-group">
+				<a class="social-item background-facebook" href="/categories/topical" target="_blank">					
+					<img class="social-icon" src="/images/sprite-icons-core.svg#facebook" alt="Link to DHMB Facebook page" title="Facebook" />
+				</a>
+				<a class="social-item background-twitter" href="/categories/topical" target="_blank">
+					<img class="social-icon" src="/images/sprite-icons-core.svg#twitter" alt="Link to DHMB Twitter page" title="Twitter" />
+				</a>
+				<a class="social-item background-youtube" href="/categories/topical" target="_blank">
+					<img class="social-icon" src="/images/sprite-icons-core.svg#youtube" alt="Link to DHMB YouTube page" title="YouTube" />
+				</a>
+				<a class="social-item background-rss" href="/categories/topical">					
+					<img class="social-icon" src="/images/sprite-icons-core.svg#rss" alt="Link to DHMB RSS feed" title="RSS" />
+				</a>
+				<a class="social-item background-patreon social-patreon-small" href="/categories/topical">
+					<img class="social-icon" src="/images/sprite-icons-core.svg#patreon" alt="Link to DHMB Patreon page" title="Patreon" />
+				</a>
+			</div>
+			<div class="social-email-list">
+				<strong>Get the E-Mail Newsletter!</strong>
+				<form>
+					<input class="social-email-box" type="text" placeholder="your e-mail addy" />
+				</form>
+			</div>
+		</div>
+	</nav>
+	<main class="article-sidebar-image">
+		<aside id="sidebar-for-articles">
+			<nav id="social-3">
+				<div class="social-layout social-3-layout">
+					<div class="social-link-group social-3-link-group">
+						<a class="social-item background-facebook" href="/categories/topical" target="_blank">				
+							<img class="social-icon" src="/images/sprite-icons-core.svg#facebook" alt="Link to DHMB Facebook page" title="Facebook" />
+						</a>
+						<a class="social-item background-twitter" href="/categories/topical" target="_blank">
+							<img class="social-icon" src="/images/sprite-icons-core.svg#twitter" alt="Link to DHMB Twitter page" title="Twitter" />
+						</a>
+						<a class="social-item background-youtube" href="/categories/topical" target="_blank">
+							<img class="social-icon" src="/images/sprite-icons-core.svg#youtube" alt="Link to DHMB YouTube page" title="YouTube" />
+						</a>
+						<a class="social-item background-rss" href="/categories/topical">					
+							<img class="social-icon" src="/images/sprite-icons-core.svg#rss" alt="Link to DHMB RSS feed" title="RSS" />
+						</a>
+						<a class="social-item background-patreon social-patreon-small" href="/categories/topical">
+							<img class="social-icon" src="/images/sprite-icons-core.svg#patreon" alt="Link to DHMB Patreon page" title="Patreon" />
+						</a>
+					</div>
+					<div class="social-email-list social-3-email-list">
+						<strong>Get the E-Mail Newsletter!</strong>
+						<form>
+							<input class="social-email-box" type="text" placeholder="your e-mail addy" />
+						</form>
+					</div>
+				</div>
+			</nav>
+			<nav id="patreon">
+				<a href="/categories/topical" target="_blank">
+					<img class="patreon-button" src="/images/sprite-icons-core.svg#patreon-button" alt="Link to DHMB Patreon page" title="Become a Patron at Patreon" />
+				</a>
+			</nav>
+			<aside id="spotlight-3">
+				<div class="spotlight-section-text">
+					<img class="text-image text-image-in-the-spotlight" src="/images/sprite-text-core-base.svg#in-the-spotlight-base" alt="In the Spotlight" title="In the Spotlight" />
+					<strong>IN THE SPOTLIGHT</strong>
+				</div>
+				<article class="spotlight-box">
+					<header>
+						<div class="spotlight-header background-neutral">
+							<a href="/categories/how-to">
+								<img class="spotlight-header-icon-category" src="/images/sprite-icons-core.svg#how-to" alt="How-To" title="How-To" />
+							</a>					
+							<a class="spotlight-header-text" href="/categories/how-to">
+								<b>How-To</b>
+							</a>
+							<a href="/keys/2-keys">
+								<img class="spotlight-header-icon-key" src="/images/sprite-icons-core.svg#2-keys" alt="2 Keys" title="2 Keys" />
+							</a>
+						</div>
+					</header>
+					<section class="spotlight-content">
+						<img class="spotlight-featured-image" src="/images/test-image-2.svg">
+						<div class="spotlight-text-box">
+							<h1 class="spotlight-title">Testing, 1, 2, 3</h1>
+							<div class="spotlight-text">
+								<b><i>Thank you to all my testers! Please follow the provided guidlines for testing and feedback.</i></b>
+							</div>
+						</div>
+						<div class="spotlight-read-more">
+							<b>>> <a class="spotlight-read-more-text" href="/2018/05/testing-1-2-3/">Read More</a> &lt;&lt;</b>
+						</div>
+					</section>
+				</article>
+			</aside>
+			<nav id="abouthowprivacy">
+				<a class="abouthowprivacy-click" href="/about/">
+					<img class="abouthowprivacy-text-image abouthowprivacy-text-image-about-dhmb" src="/images/sprite-text-core-base.svg#about-dhmb-base" alt="About DHMB" title="About DHMB" />
+				</a>
+				<a class="abouthowprivacy-click" href="/how-to-use/">
+					<img class="abouthowprivacy-text-image abouthowprivacy-text-image-how-to-use" src="/images/sprite-text-core-base.svg#how-to-use-base" alt="How to Use DHMB" title="How to Use DHMB" />
+				</a>
+				<a class="abouthowprivacy-click" href="/privacy/">
+					<img class="abouthowprivacy-text-image abouthowprivacy-text-image-your-privacy" src="/images/sprite-text-core-base.svg#your-privacy-base" alt="Your Privacy" title="Your Privacy" />
+				</a>
+			</nav>
+			<aside id="adunit-3">
+				AD UNIT 3
+			</aside>
+			<nav id="frequent-topics-3" class="frequent-topics">
+				<img class="text-image-frequent-topics" src="/images/sprite-text-core-base.svg#frequent-topics-base" alt="Frequent Topics" title="Frequent Topics" />
+				<ul class="frequent-topics-list">
+					<li><b><a href="/tags/security">security</a></b></li>
+					<li><b><a href="/tags/privacy">privacy</a></b></li>
+					<li><b><a href="/tags/hardware">hardware</a></b></li>
+					<li><b><a href="/tags/big-data">big data</a></b></li>
+					<li><b><a href="/tags/software">software</a></b></li>
+					<li><b><a href="/tags/passwords">passwords</a></b></li>
+					<li><b><a href="/tags/social-media">social media</a></b></li>
+					<li><b><a href="/tags/wireless">wireless</a></b></li>
+					<li><b><a href="/tags/muppets">muppets</a></b></li>
+					<li><b><a href="/tags/weebles">weebles</a></b></li>
+				</ul>
+			</nav>
+			<aside id="search-2" class="search">
+				<strong>Search the Site</strong>
+				<form>
+					<input class="search-box" type="text" placeholder="your search terms" />
+				</form>
+			</aside>
+			<aside id="adunit-4">
+				AD UNIT 4
+			</aside>
+		</aside>
+		<section id="main-content">
+			<aside id="adunit-1">
+				AD UNIT 1
+			</aside>
+			<article class="article-box">
+				<header class="article-summary">
+					<h1 class="summary-title article-summary-title">How To Find the Ever Elusive Any Key</h1>
+					<div class="summary-text article-summary-text">
+						<b>SUMMARY: <i>Fusce interdum tortor magna, id facilisis massa sagittis non. Curabitur at laoreet ante.</i></b>
+					</div>
+				</header>
+				<img class="summary-featured-image article-featured-image" src="/images/test-image-1.svg">
+				<nav>
+					<div class="summary-header article-summary-header background-neutral">
+						<a href="/categories/topical">
+							<img class="summary-header-icon-category article-summary-header-icon-category" src="/images/sprite-icons-core.svg#topical" alt="Topical" title="Topical" />
+						</a>
+						<a href="/tags/privacy">
+							<div class="bi summary-header-tags article-summary-header-icons summary-header-tags-privacy"></div>
+							<img class="summary-header-icon-tag article-summary-header-icon-tag" src="/images/sprite-icons-tags.svg#privacy" alt="Privacy" title="Privacy" />
+						</a>
+						<a href="/tags/big-data">
+							<div class="bi summary-header-tags article-summary-header-icons summary-header-tags-big-data"></div>
+							<img class="summary-header-icon-tag article-summary-header-icon-tag" src="/images/sprite-icons-tags.svg#big-data" alt="Big Data" title="Big Data" />
+						</a>
+						<a href="/keys/1-key">
+							<img class="summary-header-icon-key article-summary-header-icon-key article-key-adjust-right" src="/images/sprite-icons-core.svg#1-key" alt="1 Key" title="1 Key" />
+							<img class="summary-header-icon-key article-summary-header-icon-key article-key-adjust-left" src="/images/sprite-icons-core.svg#1-key-left" alt="1 Key" title="1 Key" />
+							</a>
+					</div>
+				</nav>
+				<div class="article-date">
+					<b>May 1, 2018</b>
+				</div>
+				<nav id="article-if-a-series">
+					<p><b><i>This article is part of the</i><span class="ifaseries-alt-font"> Do That Thing... Or Not </span><i>series:<br/></i></b></p>
+					<ol class="article-if-a-series-alt-font">
+						<li><a href="http://www.dont-hack-me-bro.com/2018/05/amazing-new-app-can-double-as-a-spare-tire/">Amazing New App Can Double As A Spare Tire</a></li>
+						<li><a href="http://www.dont-hack-me-bro.com/2018/05/how-to-find-the-ever-elusive-any-key/">How To Find the Ever Elusive Any Key</a></li>
+					</ol>
+				</nav>
+				<div class="article-text">
+					<div class="article-content">
+
+<h1 id="toc_0">Always Start with a Header</h1>
+
+<p>Vivamus eu placerat tellus. Cras sollicitudin velit at sagittis scelerisque. Vivamus sed risus at elit sollicitudin condimentum. Curabitur aliquet orci diam, sed aliquet lectus hendrerit non. Pellentesque dapibus tortor quis justo pulvinar bibendum.</p>
+
+<p>Nunc at tellus iaculis tellus fermentum dapibus ac vel metus. Nam ligula justo, posuere eget turpis consectetur, varius tempor neque. Fusce sollicitudin velit ac nulla posuere sagittis vitae sit amet nisi. Morbi eu aliquam tortor, eu vehicula metus. Cras sed velit nisl. Phasellus in leo nisl.</p>
+
+<p>Nullam rhoncus arcu id dui aliquam vulputate a non elit. Nunc tristique, mi id aliquet tristique, ipsum risus volutpat sapien, at cursus mauris augue et sem. Etiam vitae mi nibh. Etiam viverra, ipsum ac sollicitudin euismod, libero libero lobortis dui, lobortis euismod sem dolor sed tortor. Cras tincidunt magna metus, a imperdiet urna fermentum nec.</p>
+
+<p>Maecenas in facilisis ipsum. Donec convallis quis quam eu dignissim. Phasellus vel consectetur risus, id interdum nisl. Integer vel arcu convallis, pharetra lectus finibus, ultricies est. Fusce tincidunt augue arcu, facilisis egestas diam dictum id. Ut ut sodales ex. Cras tincidunt purus nec quam cursus, ut mollis nisi pulvinar. Aenean hendrerit molestie augue vitae rhoncus.</p>
+
+<h2 id="toc_1">Second Level Header</h2>
+
+<p>Pellentesque non facilisis metus, nec placerat odio. Phasellus quis augue consequat, finibus lorem eu, lobortis leo. Aliquam erat volutpat. Pellentesque eu quam non lacus cursus iaculis at in libero. Quisque sit amet tortor mi. Sed quis neque ut ex ullamcorper sodales. Mauris arcu enim, venenatis lobortis urna ut, dictum ornare ex.</p>
+
+<p>Vivamus laoreet scelerisque tortor at aliquam. Ut fermentum viverra tortor ac bibendum. Pellentesque id nisl eu nibh semper tempor. Vestibulum a turpis lectus.</p>
+
+<p>Maecenas elit magna, mollis vitae turpis sed, vulputate consectetur sem. Etiam erat ipsum, porta in auctor ut, luctus non dolor. Vestibulum leo metus, porttitor congue augue eget, faucibus porta lorem. Nulla mollis egestas diam sed ultricies.</p>
+
+<p>Phasellus gravida maximus hendrerit. Duis et tincidunt lorem. Nam quis quam vel massa fringilla laoreet. Curabitur eu bibendum ligula, at laoreet dui. Donec tempor erat sapien, ac tempus ligula imperdiet a. Cras sagittis neque vitae congue finibus. Quisque vitae rutrum enim. Donec sed erat faucibus, elementum augue in, varius lorem. Vivamus tincidunt orci at interdum posuere.</p>
+
+<p>Nullam auctor, augue et posuere placerat, felis sapien consectetur felis, ac feugiat nisi mi et risus. Quisque vehicula convallis velit a faucibus. Phasellus quis hendrerit ligula.</p>
+
+<p>Cras porttitor congue est, et viverra lorem porttitor at. Nullam eu porttitor arcu. Nunc mattis leo in sem dictum, sed tincidunt est accumsan. Duis lectus diam, pharetra ut semper ut, placerat id dui. Pellentesque condimentum nunc eget est fringilla commodo et quis purus. Quisque placerat cursus ullamcorper.</p>
+
+<p>Aenean quis felis consectetur, feugiat eros non, ullamcorper quam. Nulla posuere, eros efficitur pharetra porta, ex libero fringilla nisl, ac ornare sem nibh id augue. Cras convallis aliquet quam rhoncus lobortis. Sed eu ullamcorper dui. Sed a vulputate est, vitae interdum massa. Donec aliquam dictum odio sollicitudin malesuada. Suspendisse quis cursus felis, eu condimentum neque. Duis sed lacus et nibh tristique gravida. Pellentesque posuere risus quis dui condimentum pharetra.</p>
+
+<p>Phasellus ornare, nisl eu suscipit fringilla, ante sem varius risus, nec cursus mauris neque id urna. Proin non sagittis diam. Vestibulum nibh ante, molestie quis ullamcorper ut, interdum vel augue. Duis at placerat libero.</p>
+
+<p>Aenean posuere, arcu ut maximus maximus, magna ligula placerat nisl, id accumsan ante metus a nunc. Cras scelerisque lacus sit amet augue finibus dapibus. Fusce interdum tortor magna, id facilisis massa sagittis non. Curabitur at laoreet ante. Etiam eget aliquam justo, eu dapibus mi. Fusce rhoncus efficitur justo, eget pharetra lacus maximus nec. Ut pharetra nunc rutrum lectus eleifend efficitur. Phasellus sodales sollicitudin scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+<p>Pellentesque lacus risus, consectetur vel ex vitae, aliquet porta nunc. Nulla nec erat neque. Duis in magna ut nibh lacinia posuere.</p>
+
+<h2 id="toc_2">Another Second Level Header</h2>
+
+<p>Proin blandit urna consequat diam condimentum, vitae condimentum massa auctor. Cras pretium faucibus lorem, sit amet dictum sem. Sed interdum ullamcorper volutpat. Quisque in varius eros. Donec faucibus ante lacus, quis faucibus magna euismod eu.</p>
+
+<p>Sed hendrerit laoreet massa, et egestas tellus lobortis ac. Sed risus velit, feugiat et mi a, iaculis ultrices velit. Aenean dictum tempus libero, sed commodo urna dignissim at. Ut vehicula vehicula eros, nec dignissim leo ornare a. Praesent est quam, laoreet eu turpis eu, molestie fringilla arcu. Ut eu gravida purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+<p>Etiam suscipit a diam sed elementum. In et nunc finibus, dignissim eros pharetra, dictum mauris. Nam iaculis ligula nec interdum molestie. Fusce vel mi sodales, rhoncus libero feugiat, pretium nibh. Mauris vel sollicitudin magna, id tempor velit. Curabitur sit amet placerat felis. Etiam bibendum ipsum sed augue tristique, eget faucibus urna elementum. Cras rutrum volutpat est sed laoreet. Curabitur in odio in lacus gravida suscipit ut non ligula.</p>
+
+<p>Suspendisse accumsan id lectus non feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque dignissim odio commodo massa malesuada, id maximus tortor eleifend. Quisque fringilla, quam ac rhoncus placerat, nisl nunc elementum nulla, vel aliquam lacus purus nec augue.</p>
+
+<p>Curabitur vehicula euismod velit a aliquet. Nam imperdiet rhoncus elit et ullamcorper. Morbi sed urna ac est imperdiet semper.</p>
+
+<p>Proin id mattis velit. Phasellus sed sapien et urna ultricies sodales sed eu tortor. Maecenas laoreet tincidunt diam tristique bibendum. Suspendisse hendrerit metus leo, eu porttitor diam condimentum id. Nullam sit amet volutpat lectus. Maecenas vel congue sapien. Aenean ac elit elit. Integer suscipit varius lectus, vitae pellentesque nisi pharetra id. Sed rutrum luctus felis, quis dapibus ipsum maximus sit amet.</p>
+
+						<p class="article-the-end"><b>[ THE END ]</b></p>
+					</div>
+					<nav id="share">
+						<div class="share-text"><strong>Please Share This Story</strong></div>
+						<div class="share-social-link-group">
+							<a class="social-item background-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.dont-hack-me-bro.com%2f2018%2f05%2fhow-to-find-the-ever-elusive-any-key%2f" target="_blank">
+								<img class="social-icon" src="/images/sprite-icons-core.svg#facebook" alt="Facebook share link" title="Facebook" />
+							</a>
+							<a class="social-item background-twitter" href="https://twitter.com/intent/tweet/?text=Check%20out%20%27how-to-find-the-ever-elusive-any-key%27%20at%20dont-hack-me-bro.com%21&url=http%3a%2f%2fwww.dont-hack-me-bro.com%2f2018%2f05%2fhow-to-find-the-ever-elusive-any-key%2f&short_url_length=10&hashtags=security,privacy" target="_blank">
+								<img class="social-icon" src="/images/sprite-icons-core.svg#twitter" alt="Twitter share link" title="Twitter" />
+							</a>
+							<a class="social-item background-pinterest" href="https://pinterest.com/pin/create/button/?url=http%3a%2f%2fwww.dont-hack-me-bro.com%2f2018%2f05%2fhow-to-find-the-ever-elusive-any-key%2f" target="_blank">
+								<img class="social-icon" src="/images/sprite-icons-core.svg#pinterest" alt="Pinterest share link" title="Pinterest" />
+							</a>
+						</div>
+					</nav>
+					<section id="comments">
+					</section>
+					<div>
+						<p class="article-disclaimer"><b><i>This article does not contain expert or legal advice and offers no guarantees. DHMB is an enthusiast site and may contain errors. Readers are solely responsible for any action they may take regarding topics covered on this site.</i></b></p>
+					</div>
+				</div>
+			</article>
+			<nav id="page-nav-basic">
+				<a class="nav-arrow-basic" href="http://www.dont-hack-me-bro.com/2018/05/have-a-virus-leave-a-virus.-need-a-virus-take-a-virus./"><b>&lt;&lt; PREV</b></a>
+				<span class="nav-arrow-basic"> | </span>
+				<a class="nav-arrow-basic" href="http://www.dont-hack-me-bro.com/2018/05/i-have-a-cunning-plan/"><b>NEXT >></b></a>
+			</nav>
+			<nav id="page-nav" class="page-nav-when-article-wide">
+				<a href="http://www.dont-hack-me-bro.com/2018/05/have-a-virus-leave-a-virus.-need-a-virus-take-a-virus./">
+					<img class="nav-arrows" src="/images/sprite-nav.svg#prev-base" alt="Previous" title="Previous" />
+				</a>
+				<img class="text-image-more-goods" src="/images/sprite-nav.svg#more-goods-base" alt="More Goods" title="More Goods" />
+				<a href="http://www.dont-hack-me-bro.com/2018/05/i-have-a-cunning-plan/">
+					<img class="nav-arrows" src="/images/sprite-nav.svg#next-base" alt="Next" title="Next" />
+				</a>
+			</nav>
+			<nav id="page-nav-article-wide">
+				<div class="nav-article-prev-wide">
+					<div>
+						<a href="http://www.dont-hack-me-bro.com/2018/05/have-a-virus-leave-a-virus.-need-a-virus-take-a-virus./">
+							<img class="nav-arrows" src="/images/sprite-nav.svg#prev-base" alt="Previous" title="Previous" />
+						</a>
+					</div>
+					<div>
+						<a href="http://www.dont-hack-me-bro.com/2018/05/have-a-virus-leave-a-virus.-need-a-virus-take-a-virus./">Have a Virus, Leave a Virus. Need a Virus, Take a Virus.</a>
+					</div>
+				</div>
+				<div class="nav-article-next-wide">
+					<div class="nav-artice-next-arrow-wide">
+						<a href="http://www.dont-hack-me-bro.com/2018/05/i-have-a-cunning-plan/">
+							<img class="nav-arrows" src="/images/sprite-nav.svg#next-base" alt="Next" title="Next" />
+						</a>
+					</div>
+					<div class="nav-article-next-text-wide">
+						<a href="http://www.dont-hack-me-bro.com/2018/05/i-have-a-cunning-plan/">I Have a Cunning Plan...</a>
+					</div>
+				</div>
+			</nav>
+			<aside id="adunit-2">
+				AD UNIT 2
+			</aside> 
+		</section>
+	</main>
+	<footer id="footer">
+		<div class="footer-box">
+			<section id="footer-toon-and-social">
+				<div class="bi footer-toon footer-toon-base"></div>
+				<nav>
+					<div class="footer-social-layout">
+						<div class="social-link-group footer-social-link-group">
+							<a class="social-item background-facebook" href="/categories/topical" target="_blank">				
+								<img class="social-icon" src="/images/sprite-icons-core.svg#facebook" alt="Link to DHMB Facebook page" title="Facebook" />
+							</a>
+							<a class="social-item background-twitter" href="/categories/topical" target="_blank">
+								<img class="social-icon" src="/images/sprite-icons-core.svg#twitter" alt="Link to DHMB Twitter page" title="Twitter" />
+							</a>
+							<a class="social-item background-youtube" href="/categories/topical" target="_blank">
+								<img class="social-icon" src="/images/sprite-icons-core.svg#youtube" alt="Link to DHMB YouTube page" title="YouTube" />
+							</a>
+							<a class="social-item background-rss" href="/categories/topical">					
+								<img class="social-icon" src="/images/sprite-icons-core.svg#rss" alt="Link to DHMB RSS feed" title="RSS" />
+							</a>
+							<a class="social-item background-patreon social-patreon-small" href="/categories/topical">
+								<img class="social-icon" src="/images/sprite-icons-core.svg#patreon" alt="Link to DHMB Patreon page" title="Patreon" />
+							</a>
+						</div>
+						<div class="social-email-list footer-social-email-list">
+							<strong>Get the E-Mail Newsletter!</strong>
+							<form>
+								<input class="social-email-box" type="text" placeholder="your e-mail addy">
+							</form>
+						</div>
+					</div>
+				</nav>
+			</section>
+			<div class="footer-browse">
+				<nav id="footer-browse-1">
+					<table class="footer-tables footer-table-1">
+						<tr>
+							<th colspan="2">
+								Browse By Type
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<a href="/categories/topical">
+									<img class="footer-tables-icons" src="/images/sprite-icons-core.svg#topical" alt="Topical" title="Topical" />
+								</a>
+							</td>
+							<td>
+								<a href="/categories/topical">
+									<b>TOPICAL</b>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="/categories/news">
+									<img class="footer-tables-icons" src="/images/sprite-icons-core.svg#news" alt="News" title="News" />
+								</a>
+							</td>
+							<td>
+								<a href="/categories/news">
+									<b>NEWS</b>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="/categories/how-to">
+									<img class="footer-tables-icons" src="/images/sprite-icons-core.svg#how-to" alt="How-To" title="How-To" />
+								</a>
+							</td>
+							<td>
+								<a href="/categories/how-to">
+									<b>HOW-TO</b>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="/categories/review">
+									<img class="footer-tables-icons" src="/images/sprite-icons-core.svg#review" alt="Reviews" title="Reviews" />
+								</a>
+							</td>
+							<td>
+								<a href="/categories/review">
+									<b>REVIEWS</b>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="/categories/opinion">
+									<img class="footer-tables-icons" src="/images/sprite-icons-core.svg#opinion" alt="Opinion" title="Opinion" />
+								</a>
+							</td>
+							<td>
+								<a href="/categories/opinion">
+									<b>OPINION</b>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="/categories/interview">
+									<img class="footer-tables-icons" src="/images/sprite-icons-core.svg#interview" alt="Interviews" title="Interviews" />
+								</a>
+							</td>
+							<td>
+								<a href="/categories/interview">
+									<b>INTERVIEWS</b>
+								</a>
+							</td>
+						</tr>
+					</table>
+				</nav>
+				<nav id="footer-browse-2">
+					<table class="footer-tables footer-table-2">
+						<tr>
+							<th colspan="2">
+								By Level
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<a href="/keys/1-key">
+									<img class="footer-tables-icons footer-tables-keys-visual-tweak" src="/images/sprite-icons-core.svg#1-key-center" alt="1 Key" title="1 Key" />
+								</a>
+							</td>
+							<td>
+								<a href="/keys/1-key">
+									<b>ONE KEY</b>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="/keys/2-keys">
+									<img class="footer-tables-icons footer-tables-keys-visual-tweak" src="/images/sprite-icons-core.svg#2-keys" alt="2 Keys" title="2 Keys" />
+								</a>
+							</td>
+							<td>
+								<a href="/keys/2-keys">
+									<b>TWO KEYS</b>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="/keys/3-keys">
+									<img class="footer-tables-icons footer-tables-keys-visual-tweak" src="/images/sprite-icons-core.svg#3-keys" alt="3 Keys" title="3 Keys" />
+								</a>
+							</td>
+							<td>
+								<a href="/keys/3-keys">
+									<b>THREE KEYS</b>
+								</a>
+							</td>
+						</tr>	
+						<tr>
+							<th colspan="2">
+								Or By
+							</th>
+						</tr>	
+						<tr>
+							<td>
+								<a href="/series">
+									<img class="footer-tables-icons" src="/images/sprite-icons-core.svg#series" alt="Series" title="Series" />
+								</a>
+							</td>
+							<td class="footer-tables-series-visual-tweak">
+								<a href="/series">
+									<b>SERIES</b>
+								</a>
+							</td>
+						</tr>
+					</table>
+				</nav>
+				<nav id="footer-patreon">
+					<a href="/categories/topical" target="_blank">
+						<img class="patreon-button" src="/images/sprite-icons-core.svg#patreon-button" alt="Link to DHMB Patreon page" title="Become a Patron at Patreon" />
+					</a>
+				</nav>
+			</div>
+			<section id="footer-text-block">
+				<div class="footer-section-text">
+					<img class="footer-text-image" src="/images/sprite-logo.svg#base" alt="Don't Hack Me Bro!" title="Don't Hack Me Bro!" />
+					<strong>DON'T HACK ME BRO</strong>
+				</div>
+				<p class="footer-text">is an internet project dedicated to the idea that security and privacy are for <b><i>everyone</i></b>. 
+				Learn more <span class="footer-section-text"><b>>> </span><a href="/about/">here</a><span class="footer-section-text"> &lt;&lt;</b></span>.</p>
+				<div class="bi footer-search-toon footer-search-toon-base"></div>
+				<p class="footer-text footer-text-bottom">Find tips for using the site <span class="footer-section-text"><b>>> </span><a href="/how-to-use/">here</a><span class="footer-section-text"> &lt;&lt;</b></span>.</p>
+				<p class="footer-text footer-text-bottom">Learn how this site respects your privacy <span class="footer-section-text"><b>>> </span><a href="/privacy/">here</a><span class="footer-section-text"> &lt;&lt;</b></span>.</p>
+				<aside class="search footer-search">
+					<strong>Search the Site</strong>
+					<form>
+						<input class="search-box" type="text" placeholder="your search terms" />
+					</form>
+				</aside>
+			</section>
+		</div>
+		<span class="footer-copyright"><b>Copyright 2016-18</b></span>
+	</footer>
+</body>
+</html>
