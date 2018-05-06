@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oh My That&#39;s Scary on Don&#39;t Hack Me Bro</title>
+    <link>http://www.dont-hack-me-bro.com/series/oh-my-thats-scary/</link>
+    <description>Recent content in Oh My That&#39;s Scary on Don&#39;t Hack Me Bro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 May 2018 00:00:01 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.dont-hack-me-bro.com/series/oh-my-thats-scary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DHCP and You</title>
+      <link>http://www.dont-hack-me-bro.com/2018/05/dhcp-and-you/</link>
+      <pubDate>Tue, 01 May 2018 00:00:01 -0400</pubDate>
+      
+      <guid>http://www.dont-hack-me-bro.com/2018/05/dhcp-and-you/</guid>
+      <description>Always Start with a Header Vivamus erat metus, consectetur eu pellentesque quis, luctus in massa. Integer lectus felis, commodo sed elit sed, hendrerit aliquet urna. Aenean et ipsum id odio porttitor iaculis. Integer aliquet, enim et ullamcorper mollis, mauris justo pellentesque ante, in cursus est lorem non ipsum. Donec laoreet imperdiet velit sit amet posuere.
+Quisque ac volutpat lacus, in rhoncus orci. Sed fermentum porta felis, ultrices accumsan leo. Maecenas eget nunc ac odio ornare lacinia.</description>
+    </item>
+    
+    <item>
+      <title>The Best Passwords Under Six Characters</title>
+      <link>http://www.dont-hack-me-bro.com/2018/05/the-best-passwords-under-six-characters/</link>
+      <pubDate>Tue, 01 May 2018 00:00:01 -0400</pubDate>
+      
+      <guid>http://www.dont-hack-me-bro.com/2018/05/the-best-passwords-under-six-characters/</guid>
+      <description>Always Start with a Header Vestibulum sagittis lorem at magna pellentesque, eu efficitur augue bibendum. Maecenas varius nibh et metus luctus, non gravida eros rutrum.
+Nulla tincidunt viverra nisl, consequat pulvinar dui pellentesque ac. Sed id facilisis est. Mauris hendrerit tempus velit quis dapibus. Nulla eu volutpat nibh. Ut consectetur libero a diam sollicitudin dignissim. Morbi volutpat elit sed nisi bibendum, quis maximus risus posuere.
+Maecenas malesuada tellus nec mollis imperdiet.</description>
+    </item>
+    
+  </channel>
+</rss>

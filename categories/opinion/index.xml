@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opinion on Don&#39;t Hack Me Bro</title>
+    <link>http://www.dont-hack-me-bro.com/categories/opinion/</link>
+    <description>Recent content in Opinion on Don&#39;t Hack Me Bro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 May 2018 00:00:01 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.dont-hack-me-bro.com/categories/opinion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Your Password Still Sucks</title>
+      <link>http://www.dont-hack-me-bro.com/2018/05/your-password-still-sucks/</link>
+      <pubDate>Tue, 01 May 2018 00:00:01 -0400</pubDate>
+      
+      <guid>http://www.dont-hack-me-bro.com/2018/05/your-password-still-sucks/</guid>
+      <description>Always Start with a Header Maecenas sit amet neque dui. Aliquam porta bibendum leo, fringilla porta mauris ullamcorper non. Donec tincidunt orci quis elit aliquam volutpat. Ut bibendum lobortis diam quis condimentum. Integer id quam urna. Aliquam erat volutpat. Suspendisse mauris tellus, tristique vel massa vitae, scelerisque ornare purus.
+Second Level Header Sed ultricies, risus ac dignissim laoreet, nisi nibh tincidunt ante, vel aliquet ex erat sit amet turpis. Vivamus aliquet pharetra lectus, nec interdum tellus dapibus sit amet.</description>
+    </item>
+    
+  </channel>
+</rss>

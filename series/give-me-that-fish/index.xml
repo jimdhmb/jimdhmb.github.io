@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Give Me that Fish! on Don&#39;t Hack Me Bro</title>
+    <link>http://www.dont-hack-me-bro.com/series/give-me-that-fish/</link>
+    <description>Recent content in Give Me that Fish! on Don&#39;t Hack Me Bro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 May 2018 00:00:01 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.dont-hack-me-bro.com/series/give-me-that-fish/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nine Ways to Make a List</title>
+      <link>http://www.dont-hack-me-bro.com/2018/05/nine-ways-to-make-a-list/</link>
+      <pubDate>Tue, 01 May 2018 00:00:01 -0400</pubDate>
+      
+      <guid>http://www.dont-hack-me-bro.com/2018/05/nine-ways-to-make-a-list/</guid>
+      <description>Always Start with a Header Proin sit amet augue rutrum, pellentesque sapien et, tempor sapien. Aliquam lacus justo, tempor ornare laoreet sit amet, pellentesque eu purus. Vestibulum eu risus sed magna condimentum pharetra. Vestibulum consectetur velit in dui vestibulum tempus. Nam tincidunt sit amet nunc non sodales. Donec ut lorem finibus neque porta pretium. Proin auctor diam eu tortor rutrum, ut posuere mauris fringilla.
+Second Level Header Nulla malesuada, justo pulvinar volutpat commodo, dolor neque rutrum tortor, a pellentesque ligula nibh in arcu.</description>
+    </item>
+    
+    <item>
+      <title>Robots vs Cyborg Monkeys</title>
+      <link>http://www.dont-hack-me-bro.com/2018/05/robots-vs-cyborg-monkeys/</link>
+      <pubDate>Tue, 01 May 2018 00:00:01 -0400</pubDate>
+      
+      <guid>http://www.dont-hack-me-bro.com/2018/05/robots-vs-cyborg-monkeys/</guid>
+      <description>Always Start with a Header Integer metus nunc, faucibus quis maximus at, rhoncus quis erat. Maecenas luctus ut sapien a auctor. Nulla condimentum ullamcorper justo suscipit pellentesque. Integer quis massa eget erat tristique tempus ac ac erat. Nullam viverra dolor finibus quam eleifend, vitae viverra est fringilla. Duis justo lectus, imperdiet a augue ac, luctus accumsan diam. Cras sit amet eros sit amet velit euismod dignissim.
+Second Level Header Pellentesque iaculis ultricies sapien in tempor.</description>
+    </item>
+    
+  </channel>
+</rss>
